@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tgz
+private/
+credentials.json
+.env
+.env.*
+.npmrc

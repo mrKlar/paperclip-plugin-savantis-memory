@@ -1,0 +1,30 @@
+{
+  "name": "paperclip-plugin-savantis-memory",
+  "version": "0.1.0",
+  "description": "Savantis Memory connector for Paperclip: company-scoped recall, policy-controlled retention and OAuth PKCE.",
+  "license": "UNLICENSED",
+  "author": "Savantis",
+  "repository": { "type": "git", "url": "git+https://github.com/mrKlar/paperclip-plugin-savantis-memory.git" },
+  "homepage": "https://github.com/mrKlar/paperclip-plugin-savantis-memory#readme",
+  "bugs": { "url": "https://github.com/mrKlar/paperclip-plugin-savantis-memory/issues" },
+  "keywords": ["paperclip", "paperclip-plugin", "savantis", "memory", "mcp"],
+  "files": ["dist", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "type": "module",
+  "engines": { "node": ">=24.11.0" },
+  "paperclipPlugin": {
+    "manifest": "./dist/manifest.js",
+    "worker": "./dist/worker.js",
+    "ui": "./dist/ui/"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node build.mjs",
+    "prepack": "npm test && npm run build"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "@paperclipai/plugin-sdk": "2026.916.1",
+    "esbuild": "0.28.2"
+  }
+}
