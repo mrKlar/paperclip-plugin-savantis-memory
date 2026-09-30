@@ -36,7 +36,7 @@ async function configFor(ctx, companyId) {
 async function callSavantis(store, publicBaseUrl, name, args) {
   const provider = new StoredOAuthProvider(store, publicBaseUrl);
   const transport = new StreamableHTTPClientTransport(new URL(MCP_URL), { authProvider: provider });
-  const client = new Client({ name: "paperclip-savantis-memory", version: "0.1.0" });
+  const client = new Client({ name: "paperclip-savantis-memory", version: "0.1.1" });
   try {
     await client.connect(transport);
     const result = await client.callTool({ name, arguments: args });

@@ -43,7 +43,7 @@ const tools = [
 export default {
   id: "paperclip.savantis-memory",
   apiVersion: 1,
-  version: "0.1.0",
+  version: "0.1.1",
   displayName: "Savantis Memory",
   description: "Company-scoped durable memory for Paperclip agents, with policy enforcement and explicit OAuth connection.",
   author: "Savantis",

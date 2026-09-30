@@ -81,4 +81,4 @@ Pending Savantis operations are polled three times by default. If they remain pe
 
 ## License
 
-Copyright © 2026 Savantis. All rights reserved. This public release does not grant a reuse license for the plugin source. Bundled dependencies retain their own licenses, reproduced in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Copyright © 2026 Savantis. Licensed under the [MIT License](LICENSE). Bundled dependencies retain their own licenses, reproduced in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

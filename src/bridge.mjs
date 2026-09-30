@@ -5,7 +5,7 @@ import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprot
 import { BRIDGE_TOOLS, executeBridgeTool } from "./bridge-core.mjs";
 
 const server = new Server(
-  { name: "paperclip-savantis-memory", version: "0.1.0" },
+  { name: "paperclip-savantis-memory", version: "0.1.1" },
   { capabilities: { tools: {} } },
 );
 
